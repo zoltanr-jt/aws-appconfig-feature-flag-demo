@@ -1,5 +1,6 @@
 {
-  "name": "aws-appconfig-react",
+  "name": "aws-appconfig-feature-flag-demo",
+  "description": "A demo app for AWS AppConfig feature flags",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
