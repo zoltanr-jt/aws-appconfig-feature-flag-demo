@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {init, getFeatureFlag} from './appConfig/index.js';
+init();
+
+console.log(getFeatureFlag("short-term-feature"));
+console.log(process.env)
+
 function App() {
   return (
     <div className="App">
